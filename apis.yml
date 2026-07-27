@@ -1,22 +1,54 @@
 aid: instinct-xyz
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instinct-xyz.png
 name: Instinct Xyz
-description: Instinct Xyz is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Instinct (instinct.xyz) is a Y Combinator-backed trading platform operating under the tagline
+  "Trade your instinct." As of this profile the product is pre-launch — the public site shows a "Coming Soon"
+  landing page with no live product, developer program, API, or documentation yet published. Contact is
+  hello@instinct.xyz and the company is active on X as @instinct_xyz. This API Evangelist profile was surfaced
+  from the Y Combinator portfolio and is a lead awaiting a public API surface before the enrichment pipeline
+  can capture specs and artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/instinct-xyz/refs/heads/main/apis.yml
+humanURL: https://instinct.xyz
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: pre-launch
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Trading
+- Y Combinator
+- Startup
 apis: []
+common:
+- type: Website
+  url: https://instinct.xyz
+- type: X
+  url: https://x.com/instinct_xyz
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
