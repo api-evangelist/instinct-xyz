@@ -46,13 +46,11 @@ tags:
 - Fintech
 - Trading
 - Y Combinator
-- Startups
 tags_raw:
 - Company
 - Fintech
 - Trading
 - Y Combinator
-- Startup
 apis: []
 common:
 - type: Website
@@ -69,3 +67,7 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-tags-removed:
+- Startups
+x-company-stage: venture-backed
+x-company-stage-evidence: "own tags: Startup, Y Combinator"
