@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "instinct-xyz",
+    "captured_at": "2026-10-11T190112",
+    "source_url": "https://instinct.xyz",
+    "source_type": "Website",
+    "file": "instinct-xyz-2026-10-11T190112.png",
+    "bytes": 260811,
+    "capture": "playwright-local"
+  }
+]
